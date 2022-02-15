@@ -22,7 +22,7 @@ div{
          width: 100%;
          height:100%;
          object-fit: cover; 
-         opacity: 55;   
+         opacity: 47;   
     }
     
     .MyName{
@@ -32,8 +32,9 @@ div{
      */
      position: absolute;
     top: 30%;
-    left:30%;
+    left:25%;
     text-align: center; 
+    
     
     }
     
