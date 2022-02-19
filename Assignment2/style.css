@@ -3,7 +3,7 @@
 div{    
     color: wheat;
     font-family: Arial;
-    font-size: 1.07em;
+    font-size: 1em;
     font-style: italic;
     }
     /*  video{
@@ -63,21 +63,27 @@ div{
    
       top: 10%;
      /*right:10%;*/
-     margin-left: 20%;
-     
-     
-     
+     margin-left: 0%;    
     
     }
 
-   ul{
+   .menu li{
 
     list-style: none;
+    display: inline;
+    
 
     }  
 
+    .menu li:hover {
+
+      background-color:  rgb(47, 107, 97);
+    }
+
     a {
       color : wheat;
+
+      text-decoration: none;
      
    
     
@@ -99,17 +105,65 @@ div{
    
     }  */
 
-    h2{
+    .container{
      
-    /*  background-image: url(/cv.jpeg);*/
+     /* background-image: url(/cv.jpeg); */
+
+      position: relative;
      font-Style:none;  
      color: wheat;
-     margin-right:10%;
+      left: 10%;
+      
+    
      font-size: xx-large;
     
-
-
-     
     }
+
+    .bio
+    {
+    
+      font-family: Arial, Helvetica, sans-serif;
+
+
+      text-indent: 1em;
+    }
+
+    #bioTitle
+    {
+
+     text-align: center;
+    }
+
+    #bioRight
+    {
+
+ 
+
+      border-right: black;
+      border-bottom: black;
+      padding: 1em;
+    }
+
+
+    .assignments
+    {
+
+        position: absolute;
+
+        top: 20%;
+
+        right:10%;
+       
+        color: white;
+      
+
+    }
+
+    ol{
+
+      list-style: none;
+
+    }
+    
 
    
