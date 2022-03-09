@@ -1,12 +1,30 @@
 
 
-div{    
+body{ 
+
+ background-image: url("/Images/nature3.jpg");  
+
+ padding-top:5%;
+
+ padding-left: 10%;
+
+ /*opacity: 80%;*/
+
+}
+
+h1{
+
+   color: white;
+}
+
+/*
+ div{    
     color: wheat;
     font-family: Arial;
     font-size: 1em;
     font-style: italic;
     }
-    /*  video{
+     video{
     
    position:absolute;
     top: 0;
@@ -29,7 +47,7 @@ div{
    
  
        
-    }  */
+    }  
 
  img{
         position:absolute;
@@ -39,33 +57,33 @@ div{
          height:100%;
          object-fit: cover; 
          opacity: .8;   
-  } 
-    
-    .MyName{
+  }  
+  
+    */
+    .MyName{ 
     /*color:white;
     font-family: Arial; 
      font-size: 1em; 
-     */
+     
      position: absolute;
-    /*top: 30%;
-    left:25%; */
 
-    top: 40%;
-    left:50%; 
+    top: 20%;
+    left:30%; 
     text-align: center; 
-    
+    */
     
     }
-    
+    /*
     .discription{
-    /*color:white;*/
+    /*color:white;
     position: absolute;
    
       top: 10%;
-     /*right:10%;*/
+      top: 10%;
+     /*right:10%
      margin-left: 0%;    
     
-    }
+    }*/
 
    .menu li{
 
@@ -73,29 +91,34 @@ div{
     display: inline;
     
 
-    }  
+    }   
 
     .menu li:hover {
 
       background-color:  rgb(47, 107, 97);
     }
 
-    a {
-      color : wheat;
+    .fas{
+      color : white;
 
       text-decoration: none;
-     
-   
-    
+  
+    } 
+     .motivation{
+ 
+      color: white;
     }
-    /*#A {
-      position:absolute; 
-      top: 7%;
-      left:5%;
-      margin-right: 2%;
-      
+    .bio{
+
+      color: white;
+      font-size: 120%;
     }
 
+    #video{
+
+      align-items: center;
+    }
+/*
     #B {
       position:absolute; 
       top: 7%;
@@ -105,9 +128,9 @@ div{
    
     }  */
 
-    .container{
+    /* .container{
      
-     /* background-image: url(/cv.jpeg); */
+     background-image: url(/cv.jpeg); 
 
       position: relative;
      font-Style:none;  
@@ -157,13 +180,19 @@ div{
         color: white;
       
 
+    } */
+
+    ol {
+      
+     color: white;
+     list-style-type: none;
+     
     }
+    a{
 
-    ol{
-
-      list-style: none;
-
+      text-decoration: none;
     }
+    
     
 
    
